@@ -8,6 +8,23 @@
     tools:context="com.wt.app.selectdatedemo.MainActivity">
 
     <EditText
+        android:focusable="false"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textColor="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text=""
+        android:hint="点击选择日期和时间"
+        android:textColorHint="@color/colorPrimary"
+        android:ems="10"
+        android:id="@+id/edit_text1" />
+
+    <EditText
+        android:focusable="false"
+        android:layout_below="@id/edit_text1"
         android:layout_marginTop="20dp"
         android:gravity="center"
         android:padding="10dp"
@@ -19,5 +36,5 @@
         android:hint="点击选择日期"
         android:textColorHint="@color/colorPrimary"
         android:ems="10"
-        android:id="@+id/editText" />
+        android:id="@+id/edit_text2" />
 </RelativeLayout>
